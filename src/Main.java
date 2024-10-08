@@ -52,7 +52,7 @@ public class Main {
 
         System.out.println("Задача 4");
         for (int index = 0; index < intArray.length; index++) {
-            if (intArray[index] % 2 == 0) {
+            if (intArray[index] % 2 != 0) {
                 intArray[index]++;
             }
         }
